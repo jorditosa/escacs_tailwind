@@ -2,6 +2,8 @@
  * Use this file to import partials.
  * Do not include SCSS code in this file.
  */
+ @tailwind base;
+ @tailwind components;
 
 /**
  * Import variables
@@ -15,17 +17,12 @@
  * see commented examples below
  */
 
- @tailwind base;
- @tailwind components;
- @tailwind utilities;
-
-/**
+ 
+ /**
  * Import layouts
  * It's a best practice to use a different partial for each page
  */
-
-@import "layouts/home";
-
-/**
- * Do NOT include anything else in this file!
- */
+ 
+ @import "layouts/home";
+ 
+ @tailwind utilities;
