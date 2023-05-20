@@ -1,3 +1,73 @@
-<footer class="uoc-footer">
-    &copy; Universitat Oberta de Catalunya, web developed by Jordi Sanchez Torras. All rights reserved.
+<footer class="footer mt-auto py-5 bg-gray">
+    <div class="container">
+
+        <div class="w-full max-w-1/3">
+            <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+              <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
+                  Username
+                </label>
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Username">
+              </div>
+              <div class="mb-6">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="password">
+                  Password
+                </label>
+                <input class="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="******************">
+                <p class="text-red-500 text-xs italic">Please choose a password.</p>
+              </div>
+              <div class="flex items-center justify-between">
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+                  Sign In
+                </button>
+                <a class="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800" href="#">
+                  Forgot Password?
+                </a>
+              </div>
+            </form>
+          </div>
+
+        <div class="footer__menu flex flex-column flex-md-row justify-between items-center py-3 m-0 border-t">
+            <a class="" href="#">
+                <img src="./assets/images/logo.png" alt="Logo Escacs" class="logo">
+            </a>
+            <div class="text-dark text-xl text-md-md py-2">
+                <ul class="navbar-nav flex flex-row gap-4">
+                    <li class="">
+                        <a class="" href="./index.html">Home</a>
+                    </li>
+                    <li class="">
+                        <a class="" href="#">Membres</a>
+                    </li>
+                    <li class="">
+                        <a class="" href="#">Blog</a>
+                    </li>
+                    <li class="">
+                        <a class="" href="#">Pràctica</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="text-dark">
+                <ul class="flex gap-4">
+                    <li class="">
+                        <a class="" href="#">
+                            <svg class="h-8 w-8 text-red-500"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M17.788 5.108A9 9 0 1021 12h-8" /></svg>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a class="" aria-current="page" href="#">
+                            <svg class="h-8 w-8 text-red-500"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" /></svg>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a class="" aria-current="page" href="#">
+                            <svg class="h-8 w-8 text-red-500"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" /></svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <p class="text-lg py-3 m-0 border-t text-dark text-center">Developed by Jordi Sanchez &copy; 2023. HTML i CSS II Universitat Oberta de Catalunya</p>
+    </div>
 </footer>

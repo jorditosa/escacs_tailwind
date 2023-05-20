@@ -2,32 +2,17 @@
 
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <title>UOC Boilerplate</title>
+    <include src="./views/head.html"></include>
+
+    <title>Home | Club Gambito de Dama</title>
   </head>
   <body>
   
-    <figure class="bg-blue rounded-xl p-8">
-      <div class="pt-6 text-center space-y-4">
-        <blockquote>
-          <p class="text-2xl">
-            “Tailwind CSS is the only framework that I've seen scale
-            on large teams. It’s easy to customize, adapts to any design,
-            and the build size is tiny.”
-          </p>
-        </blockquote>
-        <figcaption class="font-medium">
-          <div class="text-sky-500">
-            Sarah Dayan
-          </div>
-          <div class="text-gray-700">
-            Staff Engineer, Algolia
-          </div>
-        </figcaption>
-      </div>
-    </figure>
+    <include src="./views/header.html"></include>
+
+    <section class="heading h-screen flex justify-center text-center">
+      <h1 class="text-light text-9xl font-bold">Club Gambito de Dama</h1>
+    </section>
 
     <include src="./views/footer.html"></include>
     <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
