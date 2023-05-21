@@ -26,7 +26,7 @@ Home Page styles
 
 .heading {
   width: 100%;
-  height: 100%;
+  height: 50vh;
   color: #d5d5d5;
   text-shadow: 2px 2px 5px #0000f0;
   background-color: #fff;
@@ -37,4 +37,14 @@ Home Page styles
   font-size: 3em;
   font-weight: 700;
   display: flex;
+}
+
+/************
+* Card section
+*************/
+
+.card img {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
 }

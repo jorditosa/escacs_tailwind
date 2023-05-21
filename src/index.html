@@ -10,11 +10,27 @@
   
     <include src="./views/header.html"></include>
 
-    <section class="heading h-screen flex justify-center text-center">
-      <h1 class="text-light text-9xl font-bold">Club Gambito de Dama</h1>
+    <section class="heading flex justify-center text-center">
+      <h1 class="text-light text-3xl md:text-7xl lg:text-9xl font-bold">Club Gambito de Dama</h1>
     </section>
 
+    <main class="cards">
+      <div class="grid grid-cols-1 lg:grid-cols-3">
+        <div class="card">
+            <img src="./assets/images/players.jpg" alt="imatge players">
+        </div>
+        <div class="card">
+            <img src="./assets/images/blog.jpg" alt="imatge blog">
+        </div>
+        <div class="card">
+            <img src="./assets/images/plays.jpg" alt="imatge plays">
+        </div>
+      </div>
+    </main>
+
     <include src="./views/footer.html"></include>
+
+   <!-- Main JavaScript -->
     <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
   </body>
 </html>
