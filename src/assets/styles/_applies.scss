@@ -1,0 +1,15 @@
+// Apply instructions to different titles
+
+.title {
+  @apply text-3xl font-bold text-center;
+
+  @media (min-width: $tablet) {
+    @apply text-5xl;
+  }
+
+  @media (min-width: $desktop) {
+    @apply text-9xl;
+  }
+    
+}
+
