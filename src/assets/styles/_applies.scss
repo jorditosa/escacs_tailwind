@@ -1,5 +1,13 @@
-// Apply instructions to different titles
+// Apply instructions to different Headers
+.header {
 
+}
+
+.header-innerPage {
+
+}
+
+// Apply instructions to different titles
 .title {
   @apply text-3xl font-bold text-center;
 
@@ -13,3 +21,16 @@
     
 }
 
+.title-innerPage {
+  text-shadow: 1px 1px 3px #000;
+  @apply text-xl font-bold text-center pt-10;
+
+  @media (min-width: $tablet) {
+    @apply text-3xl;
+  }
+
+  @media (min-width: $desktop) {
+    @apply text-7xl;
+  }
+    
+}
