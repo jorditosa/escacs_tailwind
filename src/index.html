@@ -14,23 +14,36 @@
       <h1 class="title text-gray">Club Gambito de Dama</h1>
     </section>
 
-    <main class="cards">
-      <div class="grid grid-cols-1 lg:grid-cols-3">
-        <div class="card">
-            <img src="./assets/images/players.jpg" alt="imatge players">
-        </div>
-        <div class="card">
-            <img src="./assets/images/blog.jpg" alt="imatge blog">
-        </div>
-        <div class="card">
-            <img src="./assets/images/plays.jpg" alt="imatge plays">
-        </div>
+    <main class="grid grid-cols-1 lg:grid-cols-3">
+      <div class="layout__links--1">
+        <a href="./about.html">
+          <figure class="img-flip-left m-0">
+            <img src="./assets/images/players.jpg" alt="About" class="layout__links--img">
+            <figcaption class="md:flex text-center text-light font-bold text-3xl">Membres</figcaption>
+          </figure>
+        </a>
+      </div>
+      <div class="layout__links--2">
+        <a href="#">
+          <figure class="img-flip-left m-0">
+            <img src="./assets/images/blog.jpg" alt="Blog" class="layout__links--img">
+            <figcaption class="md:flex text-center text-light font-bold text-3xl">Blog</figcaption>
+          </figure>
+        </a>
+      </div>
+      <div class="layout__links--3">
+        <a href="#">
+          <figure class="img-flip-left m-0">
+            <img src="./assets/images/plays.jpg" alt="Contact" class="layout__links--img">
+            <figcaption class="md:flex text-center text-light font-bold text-3xl">Pràctica</figcaption>
+          </figure>
+        </a>
       </div>
     </main>
 
     <include src="./views/footer.html"></include>
 
-   <!-- Main JavaScript -->
-    <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+    <include src="./views/scripts.html"></include>
+
   </body>
 </html>

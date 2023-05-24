@@ -47,6 +47,7 @@
     "tailwindcss": "^3.3.2"
   },
   "dependencies": {
+    "@zkreations/imagehover": "^1.1.0",
     "sass": "^1.62.1"
   }
 }

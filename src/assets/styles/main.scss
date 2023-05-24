@@ -6,11 +6,15 @@
  @tailwind components;
 
 /**
- * Import variables
+ * Import TAILWIND variables
  */
-
 @import "variables";
 @import "applies";
+
+/**
+ * Import CUSTOM UTILITIES
+ */
+@import "utilities/utilities";
 
 /**
  * Import npm dependencies
