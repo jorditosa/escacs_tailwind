@@ -8,3 +8,15 @@
     margin: 0 auto;
   }
   
+
+/********
+* Atomic customization
+*********/
+
+.text-hover\(1\)\:h:hover{
+  opacity: 0.25;
+}
+
+.text-hover\(2\)\:h:hover{
+    opacity: 0.75;
+}
